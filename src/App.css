@@ -1,38 +1,235 @@
-.App {
-  text-align: center;
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: -apple-system, "Helvetica Neue", sans-serif, "Mier Book";
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  line-height: 20px;
+  color: rgb(64, 63, 63);
+  /* background-color: #fff; */
+}
+body{
+  overflow-x: hidden;
+}
+/* navbar1 css start */
+
+/* navbar1 css end  */
+
+
+
+/* Container1 css start  */
+
+.container1{
+  width: 1106px;
+  height: 348px;
+  display: flex;
+  flex-direction: row;
+  margin: 56px 0px 60px;
+  border-radius: 4px;
+  overflow: hidden;
+  background: rgb(249, 249, 249);
+  margin-left: 136px;
+}
+.container1Left{
+  width:587px ;
+  height: 348px;
+}
+.container1LeftInner{
+ margin: 40px 45px 40px 48px;
+  width: 494px;
+  height: 268px;
+}
+.container1Left h1{
+  color: rgb(51, 51, 51);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 52px;
+  font-family: "Mier bold";
+}
+.container1Left-Delivery{
+  display: flex;
+  /* flex-direction: row; */
+  justify-content: space-around;
+  height: 58px;
+  width: 425px;
+  background-color: rgb(255, 255, 255);
+  border-radius: 8px;
+  margin-top: 28px;
+  padding: 9px 16px;
+}
+.container1Left-Delivery-part1{
+height: 40px;
+width: 133px;
+border-radius: 0px;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+}
+.container1Left-Delivery-part1.cashON{
+  border-left: 1px solid rgb(64, 63, 63);
+  border-right: 1px solid rgb(64, 63, 63);
+}
+.container1Left-Delivery-part1 img{
+  background: rgb(247, 168, 202);
+  width: 32px;
+  height: 32px;
+  margin-left: 10px;
+  margin-right: 7px;
+
+  border-radius: 50%;
+}
+.btn-container1Left-Delivery{
+  width: 322px;
+  height: 48px;
+  margin-top: 30px;
+  display: flex;
+  -webkit-box-align: center;
+  align-items: center;
+  padding: 10px 28px;
+  background: rgb(244, 51, 151);
+  border-radius: 4px;
+  border: none;
+  color: rgb(255, 255, 255);
+  cursor: pointer;
+  justify-content: space-evenly;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.container1Right{
+  width:519px ;
+  height: 348px;
+
+}
+.container1Right img{
+  height: inherit;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* Container Css End */
+
+/* Categories Css Start  */
+.headingCategories{
+  width: 100%;
+  height: 44px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 30px 0px;
+
+}
+.headingCate-heading{
+  color: rgb(51, 51, 51);
+  font-weight: 700;
+  font-size: 36px;
+}
+.headingCategories .headingCate-line{
+  width: 22%;
+  height: 1px;
+  background: rgb(247, 168, 202);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* categories1 Modal Start*/
+.categories1ModalWrapper{
+
+  display: flex;
+  margin: 48px;
+  background-image: url(https://images.meesho.com/images/marketing/1649759774600.jpg);
+  flex-direction: row;
+  align-items: flex-end;
+  padding: 20px 24px 22px;
+  height: 546px;
+  width: 1106px;
+  border-radius: 4px;
+  background-size: 100% 100%;
+  margin-left: 139px;
+}
+/* categories1 Modal End */
+
+/* categories2 Modal Start */
+.categories2ModalWrapper{
+  display: flex;
+  margin-bottom: 60px;
+  height: 546px;
+  width: 1106px;
+  background-image: url(https://images.meesho.com/images/marketing/1664343269674.jpg);
+  background-size: 100% 100%;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 50px 0px 118px;
+  border-radius: 4px;
+  margin-left: 139px;
+}
+.modalsection2{
+  display: flex;
+  width: 639px;
+  height: 394;
+ 
+}
+.modalsection2-img1{
+  cursor: pointer;
+  margin-left: 16px;
   display: flex;
   flex-direction: column;
+  -webkit-box-align: center;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+}
+/* categories2 Modal End*/
+
+/* categories3 Modal Start */
+.categories3ModalWrapper{
+  background-image: url(https://images.meesho.com/images/pow/downloadBannerDesktop.webp);
+  width: 1106px;
+  height: 536px;
+  margin-left: 139px;
+  /* position: absolute; */
+  overflow: hidden;
+
+
+}
+.cagtegories3InnerBox{
+  width: 660px;
+  height: 356px;
+  position: absolute;
+  right: 78px;
+  text-align: right;
+  padding: 42px;
+  overflow: hidden;
+}
+.cagtegories3InnerBox h4{
+  color: rgb(85, 133, 248);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+  font-family: "Mier bold";
+  margin: 0px 0px 16px;
+  padding: 0px;
+}
+.cagtegories3InnerBox h1{
+  color: rgb(244, 51, 151);
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 52px;
+  font-family: "Mier bold";
+  margin: 0px;
+  padding: 0px;
 }
 
-.App-link {
-  color: #61dafb;
-}
+.cagtegories3InnerBox-img{
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  margin-top: 52px;
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+}
+.cagtegories3InnerBox-img img{
+  background: rgb(0, 0, 0);
+  border-radius: 4px;
+  margin-left: 12px;
+  cursor: pointer;
+  padding: 6px 25px;
+  width: 180px;
+  height: 48px;
 }
