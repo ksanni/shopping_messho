@@ -1,0 +1,194 @@
+.navBar{
+    width: 100%;
+    height: 72px;
+    display: flex;
+    justify-content:space-between;
+    position: fixed;
+    border-bottom: 1px solid rgb(153, 153, 153);
+    background-color: #ffffff;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.section-1{
+    width: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.logo{
+   margin-left: 34px;
+   
+}
+
+.searchBar{
+    width: 400px;
+    height: 47px;
+    display: flex;
+    align-items: center;
+    border: 1px solid rgb(153, 153, 153);
+    border-radius: 4px;
+
+}
+.searchBar input{
+    width:312px;
+    height:100%;
+    padding: 12px 0px;
+    border: none;
+    height: 100%;
+    letter-spacing: 0px;
+    background-color: rgba(0,0,0,0);
+    caret-color: rgb(244, 51, 151);
+}
+
+.searchBar .search{
+    height: 2rem;
+    width: 1.7rem;
+    margin-left: 13px;
+    margin-top: 3px;
+    color: rgb(153, 153, 153);
+    
+}
+.searchBar input:focus{
+    outline: 0;
+    border: none;
+}
+.searchBar .delete{
+    color: rgb(153, 153, 153);
+    margin-left: 13px;
+    margin-top:4px;
+}
+
+.section-2{
+    display: flex;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 45%;
+    letter-spacing: 0.5 px;
+}
+
+.section-2a{
+    display: flex;
+    width: 70%;
+    height: 52%;
+    justify-content: space-around;
+    align-items: center;
+    text-decoration: none;
+
+}
+.section-2a a{
+    text-decoration: none;
+}
+
+
+.section-2a .supplier{
+    text-align: center;
+    display: grid;
+    width: 185px;
+    height: 100%;
+    border-left: 1px solid rgb(153, 153, 153);
+    align-items: center;
+    border-right: 1px solid rgb(153, 153, 153);
+}
+.section-2a .downloadApp .downloadAppSvg{
+    margin-right: 4px;
+    height: 20px;
+    width: 20px;
+}
+.section-2b{
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 30%;
+    height: 100%;
+
+}
+.cart_emoji{
+    display: flex;
+}
+.cart_emoji li{
+    text-decoration: none;
+}
+
+.profile-cartSvg{
+
+    height: 24px;
+    width: 23px;
+    margin-left: 5px;
+    display: block;
+    color: rgb(153, 153, 153);
+
+}
+.adjustProfile-Cart a{
+    margin-bottom: 4px;
+    text-decoration: none;
+
+}
+.profileLogin{
+    background-color:rgba(0,0,0,0.7);
+    color: whitesmoke;
+    box-shadow: 10px 10px 12px rgba(0,0,0,0.3);
+    width: 196px;
+    height: 150px;
+    display: block;
+    position: fixed;
+    right: 34px;
+    border-radius: 4px;
+    border: 1px solid #c4c3c3;
+    display: none;
+}
+
+.profile:hover .profileLogin {
+    display: block;
+    z-index: 1;
+    /* background-color: aliceblue; */
+}
+.profileLogin h3{
+    text-align: center;
+    margin-top: 16px;
+    font-size: 18px;
+    color: whitesmoke;
+}
+.profileLogin p{
+    text-transform: capitalize;
+    text-align: center;
+    margin-top: 15px;
+    color:whitesmoke
+}
+.log{
+    text-align: center;
+    border: none;
+    width: 68px;
+    border-radius: 5px;
+    height: 34px;
+    margin: 23px 0px 0px 23px;
+    background-color: rgb(244, 51, 151);
+    cursor: pointer;
+}
+.log:hover{
+    color: #ffffff;
+}
+
+/* navbar2 css start  */
+.nav2-list{
+
+    width: 100%;
+    height: 52px;
+    border-bottom: 1px solid rgb(153, 153, 153);
+    background-color: #ffffff;
+    /* position: fixed; */
+    margin-top:72px;
+   
+  
+}
+.nav2-list li{
+    display: inline-block;
+    margin: 13px 29px 0px 16px;
+}
+.nav2-list li a{
+    text-decoration: none;
+}

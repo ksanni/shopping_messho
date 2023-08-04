@@ -1,0 +1,14 @@
+.Categories_Images{
+    width: 100vw;
+    margin-top: 53px ;
+}
+
+.categoriesImages{
+    width: 80%;
+    margin: 0 auto;
+}
+.categoriesImages img{
+    width: 100%;
+    margin-bottom: 43px;
+
+}
