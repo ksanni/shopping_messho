@@ -30,20 +30,27 @@ const Sinup = () => {
                   />
               </div>
               <div className='inpDetails'>
+                <input type="password" 
+                placeholder='Create Password' 
+                />
+              </div>
+              <div className='inpDetails'>
                 <input type="email"
                  placeholder='Email'
                  
                   />
               </div>
               <div className='inpDetails'>
-                <input type="text" 
-                placeholder='Passsword' 
+                <input type="number" 
+                placeholder='Mobile Number' 
                
                 />
               </div>
+             
             </div>
           </div>
-          <div className="btn">
+          <div className="btn " style={{height: "55px",
+    marginTop: "88px"}}>
           <button type='submit'>Sign up</button >
           </div>
           <div className="TermPolicy">

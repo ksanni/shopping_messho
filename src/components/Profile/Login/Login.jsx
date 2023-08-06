@@ -22,7 +22,7 @@ const Login = () => {
             </div>
             <div className="containerDetails">
               <div className="sinupContainer">
-                <h1>Sign Up to view your profile</h1>
+                <h1>Login to view your profile</h1>
 
                 <div className='inpDetails'>
                   <input type="text"
@@ -44,7 +44,8 @@ const Login = () => {
                 </div>
               </div>
             </div>
-            <div className="btn">
+            <div className="btn" style={{height: "55px",
+    marginTop: "58px"}}>
               <button type='submit' onClick={handleSubmit}>Login</button >
             </div>
             <div className="TermPolicy">

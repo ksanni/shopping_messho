@@ -53,7 +53,7 @@ function Navbar1() {
                             <Link to='/sinup'>
                                 <button className="log">Sin Up</button>
                             </Link>
-                            <Link to='/Login'>
+                            <Link to='/login'>
                                 <button className="log">Log In</button>
                             </Link>
                         </div>
